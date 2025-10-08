@@ -99,29 +99,7 @@ Expected output:
 
 ---
 
-## 📤 Step 5: Upload to GitHub (2 minutes)
 
-```bash
-# Initialize git
-git init
-
-# Add all files
-git add .
-
-# First commit
-git commit -m "Initial commit: CyberMachine Drive Uploader v1.0.0"
-
-# Create GitHub repository at: https://github.com/new
-
-# Add remote (replace USERNAME)
-git remote add origin https://github.com/USERNAME/cybermachine-drive-uploader.git
-
-# Push
-git branch -M main
-git push -u origin main
-```
-
----
 
 ## ✅ Verification Checklist
 
@@ -133,7 +111,6 @@ git push -u origin main
 - [ ] First authentication successful
 - [ ] Files uploaded successfully
 - [ ] .gitignore prevents sensitive files
-- [ ] Repository pushed to GitHub
 
 ---
 
